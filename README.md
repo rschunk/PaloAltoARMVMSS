@@ -1,6 +1,8 @@
 # PaloAltoARMVMSS
 ARM Template Palo Alto FW using Standard LB and HA Ports, deployed in VMSS for scaling.
 
+# FLAG - End to End Test on Website Failing, Tshooting - 12/22/17 - NS
+
 https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/dmz/nva-ha
 
 https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-configure-ha-ports

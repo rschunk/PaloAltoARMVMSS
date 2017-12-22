@@ -1,4 +1,6 @@
-﻿$resourceGroup = "xxxxx"
+Login-AzureRmAccount
+
+$resourceGroup = "xxxxx"
 $vmName = "VM-Web1"
 $location = "East US2"
 

@@ -11,7 +11,7 @@ Post Deployment Steps:
 
 1. Execute PS CSE cseinstalliis.ps1
 2. Determine PA FWs Egress PIP - (Get-AzureRmPublicIpAddress -ResourceGroupName xxxxx -VirtualMachineScaleSetName PAFWScaleSet | Where-Object {$_.Name –contains “PIP-FW-Egress”} ).IpAddress
-3. Login PA FWs Egress PIP and load configuration - multi-ip-fw1 / multi-ip-fw2 , possibly modify - ensure internal ip matches, vmss sometimes does not execute internal ip sequentially
+3. Login PA FWs Egress PIP and load configuration - multi-ip-fw1 / multi-ip-fw2, (default username is "paloalto" and default password is "Pal0Alt0@123")
 4. Cross Fingers
 
 Future Needs:

@@ -1,6 +1,10 @@
 # PaloAltoARMVMSS
 ARM Template Palo Alto FW using Standard LB and HA Ports, deployed in VMSS for scaling.
 
+https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/dmz/nva-ha
+
+https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-configure-ha-ports
+
 Post Deployment Steps:
 
 1. Execute PS CSE cseinstalliis.ps1

@@ -15,5 +15,5 @@ Post Deployment Steps:
 Future Needs:
 
 1. CSE on backend Windows web servers to install IIS automatically
-2. Look into Bootstrap method and custom image of PA FWs to pull in common located configuration
+2. Look into Bootstrap method and custom image of PA FWs to pull in common configuration located in secure storage/repo/bastion/or/nfs
 3. Determine method for output of vmss count n-tier #'s internal ip and pass into configuration file for bootstrap

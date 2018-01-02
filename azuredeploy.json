@@ -657,7 +657,7 @@
               {
                 "name": "INT-FW-Management",
                 "properties": {
-                  "primary": "false",
+                  "primary": "true",
                   "enableAcceleratedNetworking": false,
                   "ipConfigurations": [
                     {
@@ -683,7 +683,7 @@
               {
                 "name": "INT-FW-Untrust",
                 "properties": {
-                  "primary": "true",
+                  "primary": "false",
                   "enableAcceleratedNetworking": false,
                   "enableIPForwarding": true,
                   "ipConfigurations": [
@@ -867,4 +867,4 @@
       "value": "[reference('IP-LB-Public').dnsSettings.fqdn]"
     }
   }
-} 
+}

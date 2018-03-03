@@ -28,8 +28,9 @@
       "type": "string",
       "defaultValue": "8.0.0",
       "allowedValues": [
-        "8.0.0",
-        "8.1.0"
+        "7.1.0",
+        "7.1.1"
+        "8.0.0"
       ],
       "metadata": {
         "description": "Deploy versions with Standard 8.0.0 or Budapest Beta 8.1.0"
